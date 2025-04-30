@@ -1,0 +1,44 @@
+/* Listings.css */
+
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+  }
+  
+  .listing-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .listing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .listing-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .listing-info {
+    padding: 20px;
+  }
+  
+  .listing-info h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #0d6efd;
+  }
+  
+  .listing-info p {
+    margin: 6px 0;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,29 @@
+.contact-info {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 20px;
+    color: #0d6efd;
+  }
+  
+  .contact-info p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+  
+  .contact-info a {
+    color: #0077b5;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
